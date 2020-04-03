@@ -2,7 +2,7 @@ import React from 'react';
 
 import styled from "styled-components";
 const Select = styled.select`
-  width: 80vw;
+  width: 68vw;
   height: 35px;
   background: white;
   color: #808080;
@@ -35,6 +35,8 @@ const Country = (props) => {
             >
                 <option value="Germany">Germany</option>
                 <option value="Sweden">Sweden</option>
+                <option value="Finland">Finland</option>
+                <option value="Norway">Norway</option>
                 <option value="UK">United Kingdom</option>
                 <option value="Ireland">Ireland</option>
                 <option value="France">France</option>
