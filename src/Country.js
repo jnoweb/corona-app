@@ -2,7 +2,7 @@ import React from 'react';
 
 import styled from "styled-components";
 const Select = styled.select`
-  width: 30vw;
+  width: 80vw;
   height: 35px;
   background: white;
   color: #808080;
@@ -11,6 +11,9 @@ const Select = styled.select`
   border: 1px solid #808080;
   margin-left: 10px;
   margin-bottom: 3.2vh;
+  @media (min-width: 576px) {
+    width: 16vw;
+  }
 
   option {
     color: black;

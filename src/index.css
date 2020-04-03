@@ -13,14 +13,14 @@
     color: #808080;
 }
 
-h1 {
+/* h1 {
     font-size: 3.5em;
     font-style: italic;
     text-transform: uppercase;
     letter-spacing: -0.075em;
     margin-bottom: 3.2vh;
     line-height: 1.2;
-}
+} */
 
 .cases,.today-cases {
     color: #ff0000;

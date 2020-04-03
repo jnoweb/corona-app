@@ -8,6 +8,7 @@ import TodayCases from "./TodayCases";
 import TodayDeaths from "./TodayDeaths";
 import DeathsPerOneMillion from "./DeathsPerOneMillion";
 import { fetchDataByCountry } from "./api";
+import {Header} from './Header'
 
 import "./index.css";
 
@@ -33,7 +34,7 @@ function Root() {
 
   return (
     <div className="container">
-      <h1>Corona App</h1>
+      <Header>Corona App</Header>
       <Country country={country} handleCountryChange={setCountry} />
       <Cases cases={data.cases} />
       <Deaths deaths={data.deaths} />
