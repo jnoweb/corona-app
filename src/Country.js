@@ -37,15 +37,20 @@ const Country = (props) => {
                 <option value="Sweden">Sweden</option>
                 <option value="Finland">Finland</option>
                 <option value="Norway">Norway</option>
+                <option value="Iceland">Iceland</option>
                 <option value="UK">United Kingdom</option>
                 <option value="Ireland">Ireland</option>
                 <option value="France">France</option>
                 <option value="Italy">Italy</option>
                 <option value="Spain">Spain</option>
                 <option value="USA">United States of America</option>
+                <option value="Canada">Canada</option>
                 <option value="Russia">Russia</option>
                 <option value="China">China</option>
                 <option value="Taiwan">Taiwan</option>
+                <option value="Japan">Japan</option>
+                <option value="Australia">Australia</option>
+                <option value="New Zealand">New Zealand</option>
             </Select>
         </form>
     );
