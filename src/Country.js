@@ -34,6 +34,7 @@ const Country = (props) => {
                 onChange={e => handleCountryChange(e.target.value)}
             >
                 <option value="Germany">Germany</option>
+                <option value="Austria">Austria</option>
                 <option value="Sweden">Sweden</option>
                 <option value="Finland">Finland</option>
                 <option value="Norway">Norway</option>
