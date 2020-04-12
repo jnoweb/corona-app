@@ -47,6 +47,8 @@ const Country = (props) => {
                 <option value="USA">United States of America</option>
                 <option value="Canada">Canada</option>
                 <option value="Russia">Russia</option>
+                <option value="India">India</option>
+                <option value="Pakistan">Pakistan</option>
                 <option value="China">China</option>
                 <option value="Taiwan">Taiwan</option>
                 <option value="Japan">Japan</option>
