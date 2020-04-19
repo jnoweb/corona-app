@@ -55,6 +55,7 @@ const Country = (props) => {
                 <option value="Japan">Japan</option>
                 <option value="Hong Kong">Hong Kong</option>
                 <option value="Singapore">Singapore</option>
+                <option value="South Korea">South Korea</option>
                 <option value="Australia">Australia</option>
                 <option value="New Zealand">New Zealand</option>
             </Select>
